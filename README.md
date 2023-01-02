@@ -11,9 +11,7 @@
 
 ### Deploy
 
-<p align="justify">
-  Este projeto está hospedado na plataforma Vercel. Você pode conferir a execução por [aqui](https://icrportocanoa.vercel.app/).
-</p>
+Este projeto está hospedado na plataforma Vercel. Você pode conferir a execução por [aqui](https://icrportocanoa.vercel.app/).
 
 ## Tecnologias
 
