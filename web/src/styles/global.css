@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-zinc-900;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer base {
+  html {
+    font-family: Poppins, Dancing Script, Bebas Neue;
+  }
+  a:hover {
+    @apply no-underline;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-[1344px];
+  }
+
+  .btn {
+    @apply w-80 h-16 bg-emerald-700 text-white font-bold uppercase hover:bg-transparent hover:text-emerald-700 hover:border-solid hover:border-2 hover:border-emerald-700 rounded-none transition duration-200 ease-out hover:ease-in;
+  }
+
+  .btn-rounded {
+    @apply flex items-center justify-evenly gap-2 rounded-full bg-white text-emerald-700 py-4 px-6 hover:shadow-lg hover:text-emerald-700;
+  }
+}

@@ -1,0 +1,36 @@
+.container-fluid {
+  padding: 0;
+}
+
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
+  height: 88vh;
+}
+
+.carousel-container {
+  @apply bg-gray-500 bg-opacity-30 h-72;
+}
+
+#mainSlider .carousel-caption {
+  top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+  @apply mb-7 text-6xl;
+}
+
+#mainSlider .carousel-caption p {
+  @apply mb-16 text-4xl font-light;
+}
+
+.main-btn {
+  @apply bg-teal-500 uppercase py-4 px-[1.25rem] border-[3px] border-solid border-transparent;
+  transition: 0.5s;
+}
+.main-btn:hover {
+  @apply no-underline bg-transparent text-white border-teal-500;
+}
+
+.carousel-indicators .active {
+  @apply bg-teal-300;
+}

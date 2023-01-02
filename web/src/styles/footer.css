@@ -1,0 +1,36 @@
+.footer {
+  @apply w-full bg-zinc-700 flex flex-col justify-between py-8 items-center;
+}
+
+.footer .container {
+  @apply w-full grid grid-cols-3 gap-20 items-center;
+}
+
+.footer a:hover {
+  @apply bg-emerald-700 hover:text-white transition duration-500;
+}
+
+.footer-form-input,
+.footer-form-textarea {
+  @apply w-full focus:outline-none;
+}
+
+.footer-form-input {
+  @apply p-3 pl-4 mb-3;
+}
+
+.footer-form-textarea {
+  @apply h-44 p-4;
+}
+
+.footer-button {
+  @apply p-3 border-transparent border-2 transition duration-300 ease-out hover:ease-in;
+}
+
+.footer-button[type="reset"] {
+  @apply w-44 bg-zinc-300 hover:bg-transparent hover:text-white hover:border-white;
+}
+
+.footer-button[type="submit"] {
+  @apply w-full bg-emerald-700 text-white hover:brightness-150;
+}
